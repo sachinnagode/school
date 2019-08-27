@@ -1,5 +1,7 @@
 package com.kd.school.modal;
 
+import java.util.Date;
+
 import com.kd.school.enums.StudentClass;
 import com.kd.school.enums.StudentDivision;
 
@@ -24,5 +26,6 @@ public class Student
 	
 	private StudentInfo studentInfo;
 	
+	private Date DOJ;
 
 }
